@@ -63,7 +63,7 @@ Create a new Animal
 	•	URL: http://localhost:8080/f24-340/new
  
 	•	Body:
-```bash
+ ```bash
  {
   "name": "Killer Whale",
   "species": "Mammal",
