@@ -57,13 +57,15 @@ Get a specific Animal by ID
 }
 ```
 Create a new Animal
-```
+
 
 	•	Request: POST /f24-340/new
  
 	•	URL: http://localhost:8080/f24-340/new
  
 	•	Body:
+ ```
+
  ```bash
  {
   "name": "Killer Whale",
