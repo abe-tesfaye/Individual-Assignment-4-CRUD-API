@@ -57,8 +57,11 @@ Get a specific Animal by ID
 }
 ```
 Create a new Animal
+
 	•	Request: POST /f24-340/new
+ 
 	•	URL: http://localhost:8080/f24-340/new
+ 
 	•	Body:
 ```bash
  {
@@ -67,7 +70,9 @@ Create a new Animal
   "habitat": "Oceans"
 }
 ```
+
 	•	Response:
+ 
 ```bash
  {
   "animalId": 3,
