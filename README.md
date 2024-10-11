@@ -66,6 +66,7 @@ Create a new Animal
   "species": "Mammal",
   "habitat": "Oceans"
 }
+```
 	•	Response:
 ```bash
  {
@@ -74,7 +75,7 @@ Create a new Animal
   "species": "Mammal",
   "habitat": "Oceans"
 }
-
+```
 Update an existing Animal
 	•	Request: PUT /f24-340/update/{animalId}
 	•	URL: http://localhost:8080/f24-340/update/1
@@ -85,6 +86,7 @@ Update an existing Animal
   "species": "Mammal",
   "habitat": "Savannah"
 }
+```
 	•	Response:
 ```bash
  {
@@ -93,7 +95,7 @@ Update an existing Animal
   "species": "Mammal",
   "habitat": "Savannah"
 }
-
+```
 Delete an existing Animal
 	•	Request: DELETE /f24-340/delete/{animalId}
 	•	URL: http://localhost:8080/f24-340/delete/1
@@ -102,7 +104,7 @@ Delete an existing Animal
  [
   {"animalId": 2, "name": "Elephant", "species": "Mammal", "habitat": "Grasslands"}
 ]
-
+```
 Search for Animals by species
 	•	Request: GET /f24-340/species?species=mammal
 	•	URL: http://localhost:8080/f24-340/species?species=mammal
@@ -112,7 +114,7 @@ Search for Animals by species
   {"animalId": 1, "name": "Lion", "species": "Mammal", "habitat": "Savannah"},
   {"animalId": 2, "name": "Elephant", "species": "Mammal", "habitat": "Grasslands"}
 ]
-
+```
 Search for Animals by name
 	•	Request: GET /f24-340/search?name=Lion
 	•	URL: http://localhost:8080/f24-340/search?name=Lion
@@ -121,3 +123,4 @@ Search for Animals by name
  [
   {"animalId": 1, "name": "Lion", "species": "Mammal", "habitat": "Savannah"}
 ]
+```
