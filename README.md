@@ -56,6 +56,7 @@ Get a specific Animal by ID
   "habitat": "Savannah"
 }
 ```
+
 Create a new Animal
 
 
@@ -64,7 +65,7 @@ Create a new Animal
 	•	URL: http://localhost:8080/f24-340/new
  
 	•	Body:
- ```
+ 
 
  ```bash
  {
