@@ -57,6 +57,7 @@ Get a specific Animal by ID
 }
 ```
 Create a new Animal
+```
 
 	•	Request: POST /f24-340/new
  
