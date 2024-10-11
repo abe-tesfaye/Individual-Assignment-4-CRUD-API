@@ -43,7 +43,7 @@ Get list of Animals
   {"animalId": 1, "name": "Lion", "species": "Mammal", "habitat": "Savannah"},
   {"animalId": 2, "name": "Elephant", "species": "Mammal", "habitat": "Grasslands"}
 ]
-
+```
 Get a specific Animal by ID
 	•	Request: GET /f24-340/{animalId}
 	•	URL: http://localhost:8080/f24-340/1
@@ -55,7 +55,7 @@ Get a specific Animal by ID
   "species": "Mammal",
   "habitat": "Savannah"
 }
-
+```
 Create a new Animal
 	•	Request: POST /f24-340/new
 	•	URL: http://localhost:8080/f24-340/new
