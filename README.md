@@ -37,7 +37,9 @@ Use POSTMAN to test the following endpoints:
 Get list of Animals
 	•	Request: GET /f24-340/all
 	•	URL: http://localhost:8080/f24-340/all
-	•	Response:[
+	•	Response:
+ ```bash
+ [
   {"animalId": 1, "name": "Lion", "species": "Mammal", "habitat": "Savannah"},
   {"animalId": 2, "name": "Elephant", "species": "Mammal", "habitat": "Grasslands"}
 ]
